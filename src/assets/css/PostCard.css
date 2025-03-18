@@ -105,3 +105,9 @@
       transition: all 0.2s;
     }
 }
+
+@media (max-width: 768px) {
+  .icon-post {
+    display: none;
+  }
+}

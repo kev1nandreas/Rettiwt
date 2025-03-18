@@ -91,19 +91,15 @@ function PostCard({ date, content, like, id, isSaved }) {
           className="btn-group"
           onClick={(e) => handleLike(e, id, setLikeCount, likeCount)}
         >
-          {likeCount > 0 ? <BiSolidLike /> : <BiLike />}
+          {likeCount > 0 ? <BiSolidLike className="icon-post" /> : <BiLike className="icon-post" />}
           <p>{likeCount} Like</p>
-        </button>
-        <button className="btn-group">
-          <MdOutlineModeComment />
-          <p>Comment</p>
         </button>
         <button
           className="btn-group"
           onClick={(e) => handleSave(e, id, setIsShowSaved, isShowSaved)}
         >
-          {isShowSaved ? <IoBookmark /> : <IoBookmarkOutline />}
-          <p>Save</p>
+          {isShowSaved ? <IoBookmark className="icon-post" /> : <IoBookmarkOutline className="icon-post" />}
+          {isShowSaved ? <p>Bookmarked</p> : <p>Bookmark</p>}
         </button>
       </div>
 
