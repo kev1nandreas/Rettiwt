@@ -24,7 +24,7 @@ export const menuItems = [
   {
     menu: "Saved",
     icon: MdOutlineBookmark,
-    redirect: "/saved",
+    redirect: "/?path=bookmarked",
   },
   {
     menu: "Settings",

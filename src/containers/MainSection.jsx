@@ -6,7 +6,8 @@ import { handleSubmit } from "../utils/utils";
 
 function MainSection() {
   const [data, setData] = useState([]);
-  const path = window.location.pathname;
+  const params = new URLSearchParams(window.location.search);
+  const path = params.get("path");
 
   useEffect(() => {
     const savedData = localStorage.getItem("data");
@@ -51,7 +52,7 @@ function MainSection() {
           gap: "20px",
         }}
       >
-        {path === "/saved"
+        {path === "bookmarked"
           ? data.filter((item) => item.isSaved).map((item) => (
               <PostCard
                 key={item.id}
