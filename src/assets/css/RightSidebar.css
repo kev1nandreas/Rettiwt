@@ -1,0 +1,26 @@
+.right-sidebar {
+  width: 24%;
+  padding: 10px;
+  background-color: #f9f9f9f1;
+  display: flex;
+flex-direction: column;
+  gap: 10px;
+}
+
+.suggest-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-top: 10px;
+}
+
+.suggest-title {
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}

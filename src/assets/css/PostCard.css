@@ -1,0 +1,107 @@
+.post-card-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.info-sender {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.profile-label {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+#name {
+  font-size: 0.8rem;
+  font-weight: 650;
+}
+
+#date {
+  font-size: 0.7rem;
+  color: #8f91ad;
+}
+
+.btn-option-container{
+  position: relative;
+}
+
+.dropdown-item{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dropdown-item :hover{
+  color: cornflowerblue;
+  transition: all 0.2s;
+  font-weight: 600;
+}
+
+.dropdown-container{
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: left;
+  background-color: #f9f9f9f1;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 10;
+  width: 8rem; 
+  border: 1px solid #ccc;
+}
+
+.btn-option {
+    background-color: transparent;
+    border: none;
+    color: #8f91ad;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.content {
+    margin: 10px;
+    text-align: left;
+}
+
+.btn-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-group-container {
+    display: flex;
+    border-top: 1px solid #ccc;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-top: 10px;
+
+    :hover{
+      color: cornflowerblue;
+      transition: all 0.2s;
+    }
+}

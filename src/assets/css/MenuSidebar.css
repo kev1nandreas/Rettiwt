@@ -1,0 +1,27 @@
+.menu {
+    height: 2.9rem;
+    border-radius: 10px;
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    align-items: center;
+    width: 100%;
+    opacity: 80%;
+}
+
+.menu:hover {
+    color: cornflowerblue;
+    transition: all 0.2s;
+    background-color: #f9f9f9f1;
+    cursor: pointer;
+}
+
+.icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.menu p {
+    font-size: 1rem;
+    font-weight: 600;
+}
