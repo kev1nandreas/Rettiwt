@@ -25,3 +25,9 @@
     font-size: 1rem;
     font-weight: 600;
 }
+
+@media (max-width: 768px) {
+    .menu p {
+        display: none;
+    }
+}

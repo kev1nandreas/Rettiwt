@@ -48,7 +48,7 @@ function PostCard({ date, content, like, id, isSaved }) {
         <div className="info-sender">
           <img src="/female-ava.png" alt="ava" className="avatar" />
           <div className="profile-label">
-            <p id="name">Kevin Andreas</p>
+            <p id="name-post">Kevin Andreas</p>
             <p id="date">{date}</p>
           </div>
         </div>

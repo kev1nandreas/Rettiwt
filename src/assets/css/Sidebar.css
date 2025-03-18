@@ -45,3 +45,20 @@
   flex-direction: column;
   gap: 10px;
 }
+
+@media (max-width: 768px) {
+  #name {
+    display: none;
+  }
+  #username {
+    display: none;
+  }
+  .profile-container {
+    border: none;
+    background-color: transparent;
+  }
+  .sidebar {
+    width: 16%;
+    padding: 0;
+  }
+}
